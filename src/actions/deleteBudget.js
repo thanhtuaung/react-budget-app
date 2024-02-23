@@ -4,6 +4,7 @@ import { redirect } from "react-router";
 // helper
 import { deleteItem, getAllRelatedItems } from "../helpers";
 
+//delete
 export function deleteBudget({ params }) {
   try {
     deleteItem({
